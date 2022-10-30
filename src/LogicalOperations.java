@@ -36,7 +36,24 @@ public class LogicalOperations {
         }
         System.out.println(sum);
     }
+    public float  printAverage () {
+        int sum = 0;
+        for (int i = 1; i <= 100; i++) {
+            sum = sum + i;
+        }
+        return sum / 100f;
+    }
+    String tipar = "*";
 
+    public String printTipar (){
+        for(int i=1;i<=7;i++){
+
+            for (int j=1;j<i;j++){
+            System.out.print(tipar);
+        }
+    } System.out.println();
+        return (tipar);
+}
 
 
 }

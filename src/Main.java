@@ -9,8 +9,8 @@ public class Main {
         operations.printOddNumbers(100);
         operations.printEvenNumbers(100);
         operations.printSum(100);
-
-
+        System.out.println(operations.printAverage());
+        System.out.println(operations.printTipar());
 
     }
 }
